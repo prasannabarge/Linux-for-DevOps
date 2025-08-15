@@ -33,7 +33,7 @@ Each "Day" contains:
 ---
 
 ## 📜 How to Use
-1. **Browse by Day** — Click on the Folders int the Repo to practice the linux .
+1. **Browse by Day** — Click on the Folders in the Repo to practice the linux .
 2. **Copy-Paste Ready** — All examples can be copied directly into your terminal.
 3. **Practice Daily** — Spend at least 20–30 mins each day to retain knowledge.
 
