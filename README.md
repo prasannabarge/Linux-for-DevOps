@@ -1,5 +1,3 @@
-# Linux-for-DevOps
-
 # Day 01 – Linux Basics
 
 ## 📌 Introduction
@@ -88,5 +86,39 @@ top
 htop
 
 
+# CPU Information
+lscpu
 
+# Block device info
+lsblk
+lsblk -f
 
+# Hardware information
+sudo lshw
+sudo lshw -short
+
+# Memory usage
+free -h
+
+# Disk usage
+df -h
+
+# Install inxi (if not available)
+sudo apt install inxi
+
+# Detailed system info
+inxi -Fx
+
+# PCI devices
+lspci
+
+# USB devices
+lsusb
+
+# BIOS/System info
+sudo dmidecode
+
+# Process list and state
+ps aux
+top
+htop
