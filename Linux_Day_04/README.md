@@ -514,7 +514,7 @@ sudo iptables -L
 
 ### 👀 watch - Command Monitoring
 
-**Purpose**: Execute commands repeatedly and display results in real-time..
+**Purpose**: Execute commands repeatedly and display results in real-time.
 
 ```bash
 # Basic usage

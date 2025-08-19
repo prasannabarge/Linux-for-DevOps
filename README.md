@@ -21,7 +21,7 @@ Each "Day" contains:
 | Day 1 | Introduction to Linux + Basic Commands |  Unix vs Linux, process states, basic navigation & file operations |
 | Day 2 | System Monitoring & Hardware Info | `ps`, `top`, `lscpu`, `lsblk`, `df`, `free`, `inxi` |
 | Day 3 | User & File Management + File Transfer |  `chmod`, `umask`, `chown`, `scp`, `rsync`, compression tools |
-
+| Day 4 | Linux Networking Commands + IP,DNS |  `ping`, `mtr`, `netstat`, `ip`, `traceroute`, `dig`, `nmap`|
 ---
 
 ## 🔥 Why This Repo?
@@ -43,7 +43,8 @@ Each "Day" contains:
 ✅ Day 1 — Basics done  
 ✅ Day 2 — Monitoring done  
 ✅ Day 3 — User & File Management done  
-🔜 Day 4 — Networking commands
+✅ Day 4 — Networking commands 
+🔜 Day 5 — Pro Linux Commands
 
 ---
 
