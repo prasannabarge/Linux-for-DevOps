@@ -1,124 +1,60 @@
-# Day 01 – Linux Basics
+# Linux for DevOps 🚀
 
-## 📌 Introduction
-This document is part of a learning series for mastering **Linux**.  
-In this first module, we will cover:
-- The difference between UNIX and Linux
-- Linux system architecture
-- Hardware commands in Linux
-- Process states in Linux
-- Practical commands with examples
-
-Whether you are a beginner or brushing up your skills, this guide provides both theoretical and practical knowledge.
+Welcome to **Linux for DevOps** — a day-by-day learning journey where I explore, practice, and document essential Linux commands for DevOps, SysOps, and Cloud Engineering.  
+This repository is structured into **daily modules**, each focusing on a specific set of commands, their usage, and practical examples.
 
 ---
 
-## 1. Difference Between UNIX and Linux
-
-| Feature         | UNIX                                      | Linux                                        |
-|-----------------|-------------------------------------------|----------------------------------------------|
-| **Origin**      | Developed in 1969 at AT&T Bell Labs       | Developed in 1991 by Linus Torvalds          |
-| **License**     | Proprietary (paid licensing)              | Open-source under GNU GPL                    |
-| **Usage**       | Servers, mainframes, workstations         | Servers, desktops, embedded systems, mobile |
-| **Portability** | Limited portability                       | Highly portable (multiple distributions)     |
-| **Examples**    | AIX, HP-UX, Solaris                        | Ubuntu, Red Hat, Debian, Arch, etc.          |
+## 📅 Learning Structure
+Each "Day" contains:
+- **Commands & Concepts** — The topic of the day
+- **Examples** — Real-world command usage
+- **Flags** — Important options explained
+- **Notes** — Extra tips & tricks
 
 ---
 
-## 2. Linux System Architecture
+## 📂 Day-wise Learning Index
 
-Linux is composed of several layers:
-
-1. **Hardware Layer**  
-   - Physical components: CPU, RAM, disks, network cards.
-
-2. **Kernel Layer**  
-   - Core of the OS; manages hardware, processes, and system calls.  
-   - Key components:
-     - Process Manager
-     - Memory Manager
-     - File System
-     - Device Drivers
-
-3. **System Call Interface**  
-   - The bridge between user applications and the kernel.
-
-4. **Shell**  
-   - Command interpreter (e.g., `bash`, `zsh`).
-
-5. **Application Layer**  
-   - User programs (editors, compilers, browsers, etc.).
+| Day | Topic |  Highlights |
+|-----|-------|------------|
+| Day 1 | Introduction to Linux + Basic Commands |  Unix vs Linux, process states, basic navigation & file operations |
+| Day 2 | System Monitoring & Hardware Info | `ps`, `top`, `lscpu`, `lsblk`, `df`, `free`, `inxi` |
+| Day 3 | User & File Management + File Transfer |  `chmod`, `umask`, `chown`, `scp`, `rsync`, compression tools |
 
 ---
 
-## 3. Hardware Commands in Linux
-
-| Command              | Description                        | Example & Usage |
-|----------------------|------------------------------------|-----------------|
-| `lscpu`              | Display CPU architecture info      | `lscpu` |
-| `lsblk`              | List block devices (disks, partitions) | `lsblk -f` |
-| `lshw`               | List hardware info                 | `sudo lshw -short` |
-| `free -h`            | Show memory usage                  | `free -h` |
-| `df -h`              | Show disk usage                    | `df -h` |
-| `inxi -Fx`           | Detailed system info               | `inxi -Fx` |
-| `lspci`              | Show PCI devices                   | `lspci` |
-| `lsusb`              | Show USB devices                   | `lsusb` |
-| `dmidecode`          | Show BIOS/system details           | `sudo dmidecode` |
+## 🔥 Why This Repo?
+- **Beginner-friendly**: Starts from the basics, then progresses to advanced commands.
+- **DevOps-focused**: Covers commands often used in automation, CI/CD, and server management.
+- **Hands-on**: Every command comes with examples for immediate practice.
+- **PDF Included**: Downloadable PDFs for offline learning.
 
 ---
 
-## 4. States of Processes in Linux
+## 📜 How to Use
+1. **Browse by Day** — Click on the Folders in the Repo to practice the linux .
+2. **Copy-Paste Ready** — All examples can be copied directly into your terminal.
+3. **Practice Daily** — Spend at least 20–30 mins each day to retain knowledge.
 
-| Code | State Name                  | Description |
-|------|-----------------------------|-------------|
-| **R** | Running                    | Running or ready to run |
-| **S** | Sleeping (Interruptible)   | Waiting for an event, can be interrupted |
-| **D** | Sleeping (Uninterruptible) | Waiting for I/O, cannot be interrupted |
-| **T** | Stopped                    | Process stopped by signal/debugger |
-| **Z** | Zombie                     | Process finished but not cleaned by parent |
-| **X** | Dead                       | Terminated (not normally visible) |
-| **I** | Idle                       | Kernel thread idle state |
+---
 
-**Check process states:**
-```bash
-ps aux
-top
-htop
+## 📈 Progress Tracking
+✅ Day 1 — Basics done  
+✅ Day 2 — Monitoring done  
+✅ Day 3 — User & File Management done  
+🔜 Day 4 — Networking commands
 
+---
 
-# CPU Information
-lscpu
+## 💡 Pro Tip
+> Combine learning with **small projects** — try setting up a basic web server, automate backups, or monitor system performance using the commands learned.
 
-# Block device info
-lsblk
-lsblk -f
+---
 
-# Hardware information
-sudo lshw
-sudo lshw -short
+## 📬 Connect
+If you find this helpful, give the repo a ⭐ and share it with fellow learners.  
+---
 
-# Memory usage
-free -h
-
-# Disk usage
-df -h
-
-# Install inxi (if not available)
-sudo apt install inxi
-
-# Detailed system info
-inxi -Fx
-
-# PCI devices
-lspci
-
-# USB devices
-lsusb
-
-# BIOS/System info
-sudo dmidecode
-
-# Process list and state
-ps aux
-top
-htop
+**Happy Learning! 🐧**  
+*"The more you know Linux, the more powerful you become as a DevOps Engineer."*
