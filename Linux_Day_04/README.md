@@ -468,7 +468,7 @@ wget https://example.com/file.zip
 
 ### 🔗 telnet - Remote Connection
 
-**Purpose**: Establish remote connections to test network services and ports.
+**Purpose**: Establish remote connections to test network services and ports..
 
 ```bash
 # Basic usage
