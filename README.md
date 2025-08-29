@@ -22,6 +22,7 @@ Each "Day" contains:
 | Day 2 | System Monitoring & Hardware Info | `ps`, `top`, `lscpu`, `lsblk`, `df`, `free`, `inxi` |
 | Day 3 | User & File Management + File Transfer |  `chmod`, `umask`, `chown`, `scp`, `rsync`, compression tools |
 | Day 4 | Linux Networking Commands + IP,DNS |  `ping`, `mtr`, `netstat`, `ip`, `traceroute`, `dig`, `nmap`|
+| Day 5 | Linux Pro Commands | `awk`, `sed`,`grep` |
 ---
 
 ## 🔥 Why This Repo?
@@ -44,7 +45,8 @@ Each "Day" contains:
 ✅ Day 2 — Monitoring done  
 ✅ Day 3 — User & File Management done  
 ✅ Day 4 — Networking commands 
-🔜 Day 5 — Pro Linux Commands
+✅ Day 5 — Linux Pro Commands - awk , sed , grep
+🔜 Day 6 — Linux Volume Management
 
 ---
 
