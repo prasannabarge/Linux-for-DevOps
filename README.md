@@ -45,7 +45,7 @@ Each "Day" contains:
 ✅ Day 2 — Monitoring done  
 ✅ Day 3 — User & File Management done  
 ✅ Day 4 — Networking commands <br>
-✅ Day 5 — Linux Pro Commands - awk , sed , grep
+✅ Day 5 — Linux Pro Commands - awk , sed , grep <br>
 🔜 Day 6 — Linux Volume Management
 
 ---
