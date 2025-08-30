@@ -23,6 +23,7 @@ Each "Day" contains:
 | Day 3 | User & File Management + File Transfer |  `chmod`, `umask`, `chown`, `scp`, `rsync`, compression tools |
 | Day 4 | Linux Networking Commands + IP,DNS |  `ping`, `mtr`, `netstat`, `ip`, `traceroute`, `dig`, `nmap`|
 | Day 5 | Linux Pro Commands | `awk`, `sed`,`grep` |
+| Day 6 | Linux Volume Management | `pv`, `vg`, `lv` |
 ---
 
 ## 🔥 Why This Repo?
@@ -46,7 +47,7 @@ Each "Day" contains:
 ✅ Day 3 — User & File Management done  
 ✅ Day 4 — Networking commands <br>
 ✅ Day 5 — Linux Pro Commands - awk , sed , grep <br>
-🔜 Day 6 — Linux Volume Management
+✅ Day 6 — Linux Volume Management - lsblk , logical & Physical Volume
 
 ---
 
