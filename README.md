@@ -45,9 +45,9 @@ Each "Day" contains:
 ✅ Day 1 — Basics done  
 ✅ Day 2 — Monitoring done  
 ✅ Day 3 — User & File Management done  
-✅ Day 4 — Networking commands <br>
-✅ Day 5 — Linux Pro Commands - awk , sed , grep <br>
-✅ Day 6 — Linux Volume Management - lsblk , logical & Physical Volume
+✅ Day 4 — Networking commands done <br>
+✅ Day 5 — Linux Pro Commands - awk , sed , grep  done<br>
+✅ Day 6 — Linux Volume Management - lsblk , logical & Physical Volume done
 
 ---
 
